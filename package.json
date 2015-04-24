@@ -1,0 +1,28 @@
+{
+  "name": "cubomedia-models",
+  "version": "1.0.0",
+  "description": "Models partagés de la base de données cubomedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "model",
+    "schema",
+    "cubomedia"
+  ],
+  "author": "Achille",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.0.2",
+    "mongoose-schema-extend": "^0.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Akh0/cubomedia-models.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Akh0/cubomedia-models/issues"
+  },
+  "homepage": "https://github.com/Akh0/cubomedia-models#readme"
+}
