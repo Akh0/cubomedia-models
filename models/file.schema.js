@@ -8,5 +8,6 @@ module.exports = new Schema({
     filepath: String,
     type: String,
     hash: String,
-    inode: Number
-});
+    inode: Number,
+    user: String
+}, { collection: 'files', discriminatorKey: '_type' });
