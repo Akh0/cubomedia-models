@@ -5,6 +5,7 @@ var mongoose = require('mongoose'),
 
 module.exports = new Schema({
     code: String,
+    user: String,
     originalTitle: String,
     title: String,
     synopsis: String,
@@ -15,6 +16,5 @@ module.exports = new Schema({
     posters: Array,
     link: String,
     trailerEmbedHref: String,
-    genre: String,
-    episodes: [{ type: Schema.Types.ObjectId, ref: 'Episode' }]
+    genre: String
 });
